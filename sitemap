@@ -1,0 +1,226 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://prorecruit.tech/#website",
+      "url": "https://prorecruit.tech/",
+      "name": "ProRecruit",
+      "description": "ProRecruit est une plateforme de recrutement qui vous aide à trier et qualifier des milliers de candidats en 5 minutes.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://prorecruit.tech/#organization",
+        "name": "ProRecruit",
+        "logo": "https://prorecruit.tech/logo.png"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://prorecruit.tech/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://prorecruit.tech/#organization",
+      "name": "ProRecruit",
+      "url": "https://prorecruit.tech/",
+      "logo": "https://prorecruit.tech/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/prorecruit",
+        "https://twitter.com/prorecruit",
+        "https://www.facebook.com/prorecruit"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+22800000000",
+        "contactType": "customer support",
+        "areaServed": "Worldwide",
+        "availableLanguage": ["English", "French"]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://prorecruit.tech/#webpage",
+      "url": "https://prorecruit.tech/",
+      "name": "ProRecruit - Simplifiez la présélection des candidats",
+      "description": "La plateforme de recrutement qui vous aide à trier et qualifier des milliers de candidats en 5 minutes.",
+      "isPartOf": { "@id": "https://prorecruit.tech/#website" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://prorecruit.tech/banner-image.jpg"  },
+      "breadcrumb": { "@id": "https://prorecruit.tech/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://prorecruit.tech/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://prorecruit.tech/"
+        }
+      ]
+    },
+      {
+      "@type": "FAQPage",
+      "@id": "https://prorecruit.tech/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce que ProRecruit et comment peut-il aider mon entreprise ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ProRecruit est une plateforme de gestion du recrutement conçue pour simplifier et optimiser chaque étape de votre processus d'embauche. Il aide votre entreprise à trouver, évaluer et recruter les meilleurs talents rapidement et efficacement, tout en réduisant les biais et en améliorant la communication avec les candidats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En quoi consistent les évaluations psychoanalytiques des candidats ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les évaluations psychoanalytiques intégrées de ProRecruit offrent une compréhension approfondie des traits de personnalité, des aptitudes et de la compatibilité culturelle des candidats avec votre entreprise. Ces évaluations aident à recruter non seulement pour les compétences, mais aussi pour l'adéquation culturelle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la facilité d'utilisation de l'interface ProRecruit ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'interface intuitive de ProRecruit est conçue pour être simple et agréable à utiliser. Vous pouvez naviguer facilement, accéder à toutes les fonctionnalités en quelques clics et bénéficier d'une expérience utilisateur fluide, ce qui permet de se concentrer sur l'essentiel sans se soucier des détails techniques."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment puis-je essayer ProRecruit ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous pouvez essayer ProRecruit en nous contactant pour une démonstration personnalisée. Remplissez simplement le formulaire sur notre site web, et notre équipe vous contactera rapidement pour organiser une démonstration et répondre à toutes vos questions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les coûts associés à l'utilisation de ProRecruit ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les coûts de ProRecruit dépendent de la taille de votre entreprise et des fonctionnalités que vous choisissez. Nous offrons différents plans tarifaires adaptés à vos besoins, allant des petites entreprises aux grandes organisations. Contactez-nous pour un devis personnalisé."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ProRecruit est-il sécurisé ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolument. La sécurité de vos données est notre priorité. ProRecruit utilise des protocoles de sécurité avancés et des mesures de protection des données pour garantir que toutes les informations de votre entreprise et de vos candidats sont protégées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment se déroule l'intégration de ProRecruit dans mon entreprise ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'intégration de ProRecruit est simple et rapide. Notre équipe d'assistance vous guidera tout au long du processus d'installation et de configuration, assurant une transition en douceur et une adoption rapide par votre équipe RH."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle assistance est disponible si j'ai des questions ou des problèmes ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nous offrons une assistance complète à tous nos clients. Vous pouvez contacter notre équipe d'assistance par email, téléphone ou chat en direct. Nous sommes là pour vous aider avec toute question ou problème que vous pourriez rencontrer."
+          }
+        },
+          {
+          "@type": "Question",
+          "name": "ProRecruit peut-il aider à respecter les réglementations sur la protection des données ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, ProRecruit est conçu pour aider votre entreprise à respecter les réglementations sur la protection des données, telles que le RGPD. Nous fournissons des outils et des fonctionnalités pour gérer les données des candidats de manière sécurisée et conforme aux lois en vigueur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment ProRecruit améliore-t-il la collaboration au sein de l'équipe RH ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ProRecruit facilite la collaboration en centralisant toutes les informations et en permettant un accès partagé à toutes les parties prenantes. Vous pouvez attribuer des rôles et des responsabilités, suivre les progrès et communiquer efficacement au sein de l'équipe, améliorant ainsi la coordination et la productivité."
+          }
+        }
+      ]
+    },
+     {
+        "@type": "Offer",
+        "name": "Essai Gratuit",
+        "description": "Essayez ProRecruit gratuitement et découvrez comment simplifier votre processus de recrutement.",
+        "url": "https://prorecruit.tech/trial",
+         "availability": "https://schema.org/InStock",
+        "price": "0.00",
+         "priceCurrency": "USD"
+    },
+    {
+    "@type": "Product",
+    "name": "ProRecruit",
+        "description": "La plateforme de recrutement qui vous aide à trier et qualifier des milliers de candidats en 5 minutes.",
+    "brand": {
+        "@type": "Brand",
+        "name": "ProRecruit"
+    },
+     "offers": {
+        "@type": "Offer",
+        "url": "https://prorecruit.tech/pricing",
+        "priceCurrency": "USD",
+         "availability": "https://schema.org/InStock"
+     },
+    "review": {
+        "@type": "Review",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4.8",
+            "bestRating": "5"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "Clients de ProRecruit"
+        }
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "250"
+    },
+     "image": "https://prorecruit.tech/product-image.jpg"
+},
+{
+        "@type": "Action",
+        "name": "Commencer",
+      "target": "https://prorecruit.tech/signup"
+    },
+{
+         "@type": "Action",
+         "name": "Recruter maintenant",
+         "target": "https://prorecruit.tech/signup"
+},
+{
+          "@type": "Action",
+        "name": "Essayer gratuitement",
+         "target":"https://prorecruit.tech/trial"
+},
+{
+    "@type":"Action",
+     "name": "Let’s Go",
+    "target": "https://prorecruit.tech/demo"
+},
+{
+    "@type": "CreativeWork",
+    "name": "Guide Des Recruiteurs",
+    "description": "Avec ProRecruit, gérez toutes vos candidatures en un seul endroit. Suivez facilement chaque candidat, de l'application initiale à l'embauche, avec une vue d'ensemble claire et organisée. Simplifiez votre processus de recrutement et gagnez en efficacité.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "ProRecruit"
+    },
+    "url": "https://prorecruit.tech/guide-recruteurs"
+}
+
+
+  ]
+}
